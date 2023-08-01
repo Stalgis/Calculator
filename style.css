@@ -1,0 +1,40 @@
+.boton{
+    width: 2rem;
+    height: 2rem;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 180px;
+    margin-top: 5rem;
+}
+
+#screen{
+    border: solid 2px silver;
+    height: 2.5rem;
+    text-align: end;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+td{
+    border-radius: 50%;
+}
+
+td:hover{
+    background-color: darkorange;
+}
+
+table{
+    background-color: silver;
+    padding: 1rem;
+}
